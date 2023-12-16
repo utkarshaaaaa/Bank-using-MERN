@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      .my-container {
+         display: flex;
+         flex-direction: column;
+         background-color: lightgray;
+      }
+      .child {
+         background-color: red;
+         color: #fff;
+         margin: 3px;
+         padding: 5px;
+      }
+      .right-align { align-self: flex-end; }
+      .emi{
+        color: black;
+        font-size: x-large;
+        border: 2px solid black;
+      }
+      .red{
+        width: 35px;
+        height: 20px;
+        background-color: red;
+        border: 2px solid black;
+      }
+      .color{
+        display: flex;
+        align-items: right;
+        width: 260px;
+        justify-content: space-between;
+      }
+      .blue{
+        width: 35px;
+        height: 20px;
+        border: 2px solid black;
+        
+        background-color: blue;
+        
+      }
+      .parent{
+        background-color: rgb(198, 189, 189);
+      }
+      .header{
+        text-align: center;
+        border: 2px solid rgb(66, 63, 63);
+        background-color: rgb(224, 205, 205);
+      }
+
+      .tag{
+        font-size: 15px
+      }
+      .back{
+        background-color: rgb(148, 164, 164);
+      }
