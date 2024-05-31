@@ -8,7 +8,7 @@ export default function Login({id}) {
   const navigate=useNavigate()
 
  
-  const[acco_number,setacco_numebr]=useState("")
+  
   const[password,setpassword]=useState("")
   const[data,setdata]=useState([])
 
