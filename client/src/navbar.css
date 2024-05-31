@@ -111,7 +111,7 @@
     display: flex;
     margin-left: 100px;
     align-items: center;
-
+    cursor:pointer;
     width: 1010px;
     height: 100px;
     background-color: aqua;
@@ -135,11 +135,7 @@
   transition: 200ms;
   
 }
-.icon:hover .itens{
-  border: 1.5px solid black;
-  border-radius: 10px;
-  transition: 200ms;
-}
+
 .card-img-top{
   height: 200px;
 }
